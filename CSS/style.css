@@ -158,42 +158,21 @@ p {
   margin: 50px auto 0px;
 }
 
-/* Tablet (max 992px) */
-@media (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .navigasi {
     height: auto;
-    flex-wrap: wrap;
     text-align: center;
   }
 
-  .menu ul li {
-    display: inline-block;
-    margin: 10px;
-  }
-
-  .banner {
-    padding-top: 120px;
-  }
-
-  .wrapper {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .box-kiri,
-  .box-tengah,
-  .box-kanan {
-    width: 45%;
-    margin-bottom: 20px;
-  }
-}
-
-/* Handphone (max 768px) */
-@media (max-width: 768px) {
-  .navigasi {
-    flex-direction: column;
-    height: auto;
+  .logo {
+    float: none;
     padding: 10px 0;
+  }
+
+  .menu {
+    float: none;
+    margin-left: 0;
+    padding: 0;
   }
 
   .menu ul li {
@@ -201,54 +180,20 @@ p {
     margin: 10px 0;
   }
 
-  .banner img {
-    width: 120px;
-    height: 120px;
-  }
-
-  .banner h1 {
-    font-size: 22px;
-  }
-
-  .banner button {
-    width: 180px;
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .box-kiri,
   .box-tengah,
   .box-kanan {
-    width: 90%;
-    margin-bottom: 20px;
+    width: 80%;
+    margin: 20px auto;
+    float: none;
   }
 
-  .box-kontak img {
-    width: 80px;
-  }
-
-  .footer {
-    font-size: 14px;
-    padding: 15px;
-  }
-}
-
-/* HP kecil (max 480px) */
-@media (max-width: 480px) {
-  .banner h1 {
-    font-size: 18px;
-  }
-
-  .menu ul li a {
-    font-size: 14px;
+  .banner img {
+    height: 120px;
+    margin-top: 50px;
   }
 
   .banner button {
-    width: 150px;
+    width: 250px;
   }
 }
