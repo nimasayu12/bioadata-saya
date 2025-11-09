@@ -159,20 +159,15 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  .navigasi {
-    height: auto;
-    text-align: center;
-  }
-
-  .logo {
-    float: none;
-    padding: 10px 0;
-  }
-
   .menu {
-    float: none;
-    margin-left: 0;
-    padding: 0;
+    display: none;
+    background-color: #3b4997;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
   }
 
   .menu ul li {
@@ -180,10 +175,13 @@ p {
     margin: 10px 0;
   }
 
+  .logo {
+    padding-left: 15px;
+  }
+
   .box-kiri,
   .box-tengah,
   .box-kanan {
-    width: 80%;
     margin: 20px auto;
     float: none;
   }
